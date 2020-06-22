@@ -1,0 +1,21 @@
+/* Universal Styles */
+
+html {
+    margin: 0px;
+    font-size: 16px;
+}
+
+/* Top Nav */
+
+.top-nav {
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    display: flex;
+}
+
+.nav-logo {
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-right: auto;
+}
