@@ -3,6 +3,7 @@
 html {
     margin: 0px;
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Top Nav */
@@ -12,10 +13,229 @@ html {
     height: 64px;
     width: 100%;
     display: flex;
+    z-index: 10;
+    position: fixed;
+    align-content: center;
 }
 
 .nav-logo {
+    display: flex;
     flex-direction: row;
     margin-left: 1.5rem;
     margin-right: auto;
+}
+
+.nav-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-logo h3 {
+    font-weight: normal;
+    color: #2A2A2C;
+}
+
+.nav-logo span {
+    color: #b3b3ae;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row;
+    font-size: 0.75rem;
+    color: #2A2A2C;
+    margin-right: 1.5rem;
+    margin-left: auto;
+}
+
+.nav span {
+    padding: 0.5rem;
+    margin: auto 0px;
+}
+
+.sign-in {
+    width: 74px;
+    height: 35px;
+    border: 2px solid #2A2A2C;
+    border-radius: 10px;
+    margin: auto 1.5rem auto 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sign-in span {
+    margin: auto;
+}
+
+/* Main */
+
+.main {
+    height: 700px;
+    width: 100%;
+    background-color: #b3b3ae;
+    display: flex;
+    position: relative;
+    top: 64px;
+}
+
+.main img {
+    width: 60%;
+    height: auto;
+    margin: auto auto auto 1.5rem;
+}
+
+.banner-text {
+    display: flex;
+    align-content: center;
+    width: 40%;
+    height: auto;
+    flex-direction: column;
+    margin: auto auto auto 24px;
+}
+
+.banner-text h1 {
+    color: #2A2A2C;
+}
+
+.banner-text h3 {
+    color: #2A2A2C;
+    font-weight: normal;
+}
+
+.startbutton {
+    height: 3rem;
+    width: 20rem;
+    background-color: #2A2A2C;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.startbutton h3 {
+    color: white;
+    font-weight: normal;
+    margin: auto;
+}
+
+/* Information */
+
+.information {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    position: relative;
+    top: 64px;
+    align-content: flex-start;
+}
+
+.left-content {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    color: #2A2A2C;
+}
+
+.left-content img {
+    width: 100%;
+    height: auto;
+    margin: 2rem 1.5rem;
+    align-items: flex-start;
+}
+
+.left-content h2 {
+    margin-left: 1.5rem;
+    margin-top: 0px;
+}
+
+.left-content p {
+    margin-left: 1.5rem;
+}
+
+.left-content span {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+
+.right-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #adadaf;
+    align-items: center;
+}
+
+.contents img {
+    height: auto;
+    width: 35%;
+    margin: 1rem;
+}
+
+.content-text span {
+    color: dodgerblue;
+}
+
+/* Learning */
+
+.learning {
+    display: flex;
+    background-color: #b3b3ae;
+    color: #2A2A2C;
+    width: 100%;
+    height: 850px;
+    position: relative;
+    top: 64px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 4.5rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    height: 345px;
+    margin: 1rem;
+}
+
+.card img {
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.thesis {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.left {
+    width: 60%;
+}
+
+.left video {
+    width: 100%;
+    height: auto;
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
 }
